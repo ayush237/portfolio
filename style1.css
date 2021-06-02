@@ -4,9 +4,9 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  height: 160px;
+  height: 165px;
   overflow: hidden;
-  font-family: "Lato", sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 35px;
   line-height: 40px;
   color: #ecf0f1;
@@ -15,8 +15,8 @@
 .mcontent__container {
   font-weight: 600;
   overflow: hidden;
-  height: 40px;
-  padding: 0 40px;
+  height: 45px;
+  padding: 0px 40px;
 }
 
 .mcontent__container:before {
@@ -60,13 +60,15 @@
 .mcontent__container__text {
   display: inline;
   float: left;
-  margin: 0;
+
+  margin: 0rem;
 }
 
 .mcontent__container__list {
   margin-top: 0;
-  padding-left: 110px;
+  padding-left: 0px;
   text-align: left;
+  color: aqua;
   list-style: none;
   -webkit-animation-name: change;
   -webkit-animation-duration: 10s;
@@ -77,8 +79,9 @@
 }
 
 .mcontent__container__list__item {
-  line-height: 40px;
-  margin: 0;
+  line-height: 42px;
+
+  text-align: center;
 }
 
 @-webkit-keyframes opacity {
