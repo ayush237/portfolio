@@ -25,11 +25,27 @@ a:hover {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+}
+
+h3 {
+  color: #19e5e6;
+}
+
+h1,
+h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+h1 {
+  font-size: 3.5em;
+}
+h2 {
+  color: #888;
+  font-size: 2em;
 }
 
 /*--------------------------------------------------------------
@@ -365,7 +381,7 @@ h6 {
 }
 
 #hero .btn-scroll:hover {
-  color: #19e5e6marine;
+  color: aquamarine;
 }
 
 @media (min-width: 1024px) {
